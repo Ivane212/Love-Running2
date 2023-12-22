@@ -96,8 +96,9 @@ main {
 /* reasons to Run*/
 
 #reasons {
-    margin: 20px auto;
     width: 90%;
+    margin: 20px auto;
+    
 }
 
 #reasons h2 {
@@ -106,10 +107,17 @@ main {
 }
 
 #benefits-physical #benefits-mental {
-    height: 20px;
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+    line-height: 20px;
+}
 
+#benefits-physical>h3 #benefits-mental>h3 {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px;
+}
+
+#benefits-physical>p #benefits-mental>p {
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
 
 /* Hero section */
