@@ -93,33 +93,6 @@ main {
     margin-top: 47px;
 }
 
-/* reasons to Run*/
-
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-    
-}
-
-#reasons h2 {
-    font-size: 280%;
-    margin-bottom: 20px;
-}
-
-#benefits-physical #benefits-mental {
-    line-height: 20px;
-}
-
-#benefits-physical>h3 #benefits-mental>h3 {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px;
-}
-
-#benefits-physical>p #benefits-mental>p {
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
-
 /* Hero section */
 #hero {
     height: 600px;
@@ -145,8 +118,47 @@ main {
     color: #ffffff;
 }
 
+/* Reasons to section*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center / cover; 
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
 /* Footer */
-#social-networks {
+#social-ne
+tworks {
     text-align: center;
     padding: 20px 0;
     display: flex;
