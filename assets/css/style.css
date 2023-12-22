@@ -93,6 +93,25 @@ main {
     margin-top: 47px;
 }
 
+/* reasons to Run*/
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits-physical #benefits-mental {
+    height: 20px;
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+
+}
+
 /* Hero section */
 #hero {
     height: 600px;
