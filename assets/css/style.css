@@ -1,40 +1,34 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
-/* Asterisk wildcard selector to override default styles added by the browser*/
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Genaral style*/
-
-
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-    /* Generic project style*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-
 }
 
-/*Header*/
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -70,13 +64,12 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-
 }
 
-/* Nav toggle*/
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -89,21 +82,18 @@ nav {
     font-size: 2rem;
 }
 
-/*Main content*/
+/* Main content */
 main {
-    /* Make main element take up any surplus to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center/cover;
-}
-/*Footer*/
-footer {
-    background-color: orange;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -119,11 +109,12 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header*/
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -147,18 +138,17 @@ footer {
     #logo {
         font-size: 280%;
         line-height: 75px;
-        margin: 0 1.5rem;
+        margin: 0 0.5rem;
     }
 
     /* Main content */
     main {
-        /* push main content down to accommodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
 
-
-/* Media query: Laptops and larger (768px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
